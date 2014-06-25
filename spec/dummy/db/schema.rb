@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140625163354) do
+ActiveRecord::Schema.define(version: 20140625174008) do
 
   create_table "translated_words", force: true do |t|
     t.string   "translatable_type", null: false
@@ -24,5 +24,11 @@ ActiveRecord::Schema.define(version: 20140625163354) do
   end
 
   add_index "translated_words", ["translatable_type", "translatable_id", "key", "locale"], name: "translated_word", unique: true
+
+  create_table "users", force: true do |t|
+    t.date     "birthday"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
