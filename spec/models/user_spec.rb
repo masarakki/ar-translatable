@@ -26,6 +26,7 @@ describe User do
     end
     it { expect(user.first_name(:en)).to eq "John" }
     it { expect(user.first_name(:ja)).to eq "ジョン" }
+    it { expect(user.first_name(:fr)).to eq "John" }
 
     context "default locale = :en" do
       before { I18n.default_locale = :en }
