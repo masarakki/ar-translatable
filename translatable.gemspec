@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'translatable/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "translatable"
+  spec.name          = "ar-translatable"
   spec.version       = Translatable::VERSION
   spec.authors       = ["masarakki"]
   spec.email         = ["masaki@hisme.net"]
