@@ -1,7 +1,10 @@
 module Translatable
   class Railtie < ::Rails::Railtie
     initializer "translatable.initialize" do
-      ActiveRecord::Base.send(:include, Translatable::ActsAsTranslatable)
+      ActiveSupport.on_load :active_record do
+        include Translatable::ActsAsTranslatable
+        require "translatable/translated_word"
+      end
     end
   end
 end
