@@ -1,8 +1,8 @@
 # Configure Rails Environment
-ENV["RAILS_ENV"] = "test"
-require "spec_helper"
+ENV['RAILS_ENV'] = 'test'
+require 'spec_helper'
 require 'pry'
-require File.expand_path("../dummy/config/environment.rb",  __FILE__)
+require File.expand_path('../dummy/config/environment.rb',  __FILE__)
 require 'rspec/rails'
 
 # Load support files

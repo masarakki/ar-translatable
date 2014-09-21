@@ -5,12 +5,12 @@ FactoryGirl.define do
     key :first_name
     trait :en do
       locale :en
-      value "John"
+      value 'John'
     end
 
     trait :ja do
       locale :ja
-      value "ジョン"
+      value 'ジョン'
     end
   end
 end
