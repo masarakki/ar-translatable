@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['masaki@hisme.net']
   spec.summary       = 'ActiveRecord plugin to translate.'
   spec.description   = 'ActiveRecord plugin to translate.'
-  spec.homepage      = 'https://github.com/masarakki/translatable'
+  spec.homepage      = 'https://github.com/masarakki/ar-translatable'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
