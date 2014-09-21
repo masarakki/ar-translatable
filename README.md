@@ -1,4 +1,4 @@
-# Translatable
+# ActiveRecord Translatable
 
 ActiveRecord plugin for translate columns
 
@@ -6,7 +6,7 @@ ActiveRecord plugin for translate columns
 
 Add this line to your application's Gemfile:
 
-    gem 'translatable'
+    gem 'ar-translatable'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install translatable
+    $ gem install ar-translatable
 
 ## Usage
 
@@ -75,7 +75,7 @@ user.last_name
 
 ## Contributing
 
-1. Fork it ( https://github.com/masarakki/translatable/fork )
+1. Fork it ( https://github.com/masarakki/ar-translatable/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
