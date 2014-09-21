@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ### Setup
 
-    rails generate translatable:migration
+    rake translatable:install:migrations
     rake db:migrate
 
 ### Setting Model
