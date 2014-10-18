@@ -1,3 +1,12 @@
+[![Build Status](https://travis-ci.org/masarakki/ar-translatable.svg?branch=master)](https://travis-ci.org
+/masarakki/ar-translatable)
+[![Dependency Status](https://gemnasium.com/masarakki/ar-translatable.svg)](https://gemnasium.com/masarakk
+i/ar-translatable)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/masarakki/ar-translatable/badges/quality-score.p
+ng?b=master)](https://scrutinizer-ci.com/g/masarakki/ar-translatable/?branch=master)
+[![Coverage Status](https://coveralls.io/repos/masarakki/ar-translatable/badge.png)](https://coveralls.io/
+r/masarakki/ar-translatable)
+
 # ActiveRecord Translatable
 
 ActiveRecord plugin for translate columns
